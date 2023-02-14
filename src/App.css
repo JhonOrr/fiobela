@@ -1,0 +1,23 @@
+*{
+  margin:0;
+  padding:0;
+}
+.contact{
+  display: flex;
+  /* border: 2px solid black; */
+  padding: 25px 35px;
+}
+.contact-container{
+  flex:50%;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+
+@media (max-width: 900px) {
+  .contact{
+    display: block;
+    padding: 25px 35px;
+  }
+}

@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+.hero{
+/* 
+    display: flex;
+    justify-content: center; */
+    background : linear-gradient(rgba(0,0,0,0.5),rgba(150,150,150,0.8)),url('../images/background_fiobela.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+    font-size: 36px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
